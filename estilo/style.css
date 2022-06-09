@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    background-color: gray;
+}
+.cabecera{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../img/pizza.PNG);
+    background-repeat: no-repeat;
+    height: 119px;
+}
+.menuenlaces{
+    color: white;
+    list-style: none;
+    padding-top: 20px;
+}
+.listitem{
+    display: inline;
+}
+a:visited{
+    color: white;
+}
+.banerlogo{
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 490px;
+    height: 350px;
+    display: inline-flex;
+}
+.comprapizza{
+    color: red;
+    justify-content: stretch;
+}
+span{
+    color: white;
+}
+.titulo1{
+    color: red;
+    text-align: center;
+}
+.menufooter{
+    background-color: black;
+    list-style-type: none;
+}
+.contenedorproductos{
+    border: solid 5px red;
+    width: 490px;
+    height: 350px;
+    background-color: white;
+}
+.menufooter{
+    background-image: url(../img/pizza.PNG);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 150px;
+    padding: 10px;
+}
+.itemfoter{
+    padding-bottom: 16px;
+}
+.itemproductos{
+    padding-bottom: 20px;
+}
+.titulopizza{
+    padding-bottom: 20px;
+    padding-top: 64px;
+    text-align: center;
+}
+.listaproductos{
+    padding-left: 79px;
+    background-image: url(../img/PizzaFalling.jpg);
+    background-repeat: no-repeat;
+    background-position: 85% 50%;
