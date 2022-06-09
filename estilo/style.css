@@ -8,7 +8,7 @@ main{
     flex-direction: row;
     align-content: stretch;
     justify-content: center;
-    background-color: gray;
+    background-color: #c1c0bb;
 }
 .cabecera{
     background-color: black;
@@ -53,7 +53,6 @@ span{
     list-style-type: none;
 }
 .contenedorproductos{
-    border: solid 5px red;
     width: 490px;
     height: 350px;
     background-color: white;
